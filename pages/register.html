@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentHub - Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>StudentHub</h1>
+        <p>Student Registration</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="register.html">Register</a> |
+        <a href="login.html">Login</a> |
+        <a href="dashboard.html">Dashboard</a> |
+        <a href="events.html">Events</a> |
+        <a href="profile.html">Profile</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="admin.html">Admin</a> |
+        <a href="faq.html">FAQ</a>
+    </nav>
+
+    <main>
+
+        <section>
+
+            <h2>Registration Form</h2>
+
+            <form>
+
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password"><br><br>
+
+                <label for="confirm">Confirm Password:</label><br>
+                <input type="password" id="confirm" name="confirm"><br><br>
+
+                <label>Gender:</label><br>
+
+                <input type="radio" id="male" name="gender">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label>
+
+                <br><br>
+
+                <label for="department">Department:</label><br>
+
+                <select id="department" name="department">
+                    <option>Select Department</option>
+                    <option>Information Technology</option>
+                    <option>Computer Engineering</option>
+                    <option>Mechanical Engineering</option>
+                    <option>Electrical Engineering</option>
+                    <option>Civil Engineering</option>
+                </select>
+
+                <br><br>
+
+                <label for="dob">Date of Birth:</label><br>
+                <input type="date" id="dob" name="dob"><br><br>
+
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone"><br><br>
+
+                <label for="address">Address:</label><br>
+                <textarea id="address" rows="4" cols="30"></textarea>
+
+                <br><br>
+
+                <label>Hobbies:</label><br>
+
+                <input type="checkbox" id="reading">
+                <label for="reading">Reading</label>
+
+                <input type="checkbox" id="sports">
+                <label for="sports">Sports</label>
+
+                <input type="checkbox" id="music">
+                <label for="music">Music</label>
+
+                <br><br>
+
+                <input type="submit" value="Register">
+                <input type="reset" value="Clear">
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 StudentHub. All Rights Reserved.</p>
+        <p>Email: support@studenthub.com</p>
+    </footer>
+
+</body>
+
+</html>

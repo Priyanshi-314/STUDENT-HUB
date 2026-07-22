@@ -1,0 +1,217 @@
+/* Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body */
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#f4f4f4;
+    color:#333;
+    line-height:1.6;
+}
+
+/* Header */
+
+header{
+    background-color:#003366;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* Navigation */
+
+nav{
+    background-color:#0055a5;
+    text-align:center;
+    padding:12px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 12px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+    text-decoration:underline;
+}
+
+/* Main */
+
+main{
+    width:90%;
+    margin:20px auto;
+}
+
+/* Section */
+
+section{
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:8px;
+    box-shadow:0 0 8px lightgray;
+}
+
+/* Article */
+
+article{
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:8px;
+    box-shadow:0 0 8px lightgray;
+}
+
+/* Aside */
+
+aside{
+    background:#eef5ff;
+    padding:15px;
+    border-left:5px solid #0055a5;
+    border-radius:5px;
+}
+
+/* Headings */
+
+h1{
+    margin-bottom:10px;
+}
+
+h2{
+    color:#003366;
+    margin-bottom:15px;
+}
+
+h3{
+    color:#0055a5;
+    margin-bottom:10px;
+}
+
+/* Paragraph */
+
+p{
+    margin-bottom:10px;
+}
+
+/* Lists */
+
+ul{
+    margin-left:25px;
+}
+
+li{
+    margin-bottom:8px;
+}
+
+/* Forms */
+
+form{
+    background:white;
+    padding:20px;
+    border-radius:8px;
+    box-shadow:0 0 8px lightgray;
+}
+
+/* Labels */
+
+label{
+    font-weight:bold;
+}
+
+/* Input Fields */
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=tel],
+input[type=date],
+select,
+textarea{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+/* Radio & Checkbox */
+
+input[type=radio],
+input[type=checkbox]{
+    margin-right:5px;
+}
+
+/* Buttons */
+
+input[type=submit],
+input[type=reset]{
+    background-color:#0055a5;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    margin-right:10px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover{
+    background-color:#003366;
+}
+
+/* Tables (for future use) */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:15px;
+}
+
+table,th,td{
+    border:1px solid gray;
+}
+
+th{
+    background:#0055a5;
+    color:white;
+}
+
+th,td{
+    padding:10px;
+    text-align:center;
+}
+
+/* Footer */
+
+footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+nav a{
+    display:block;
+    margin:10px 0;
+}
+
+main{
+    width:95%;
+}
+
+}
