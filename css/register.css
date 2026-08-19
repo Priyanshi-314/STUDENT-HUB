@@ -1,0 +1,345 @@
+/* =========================================
+   STUDENTHUB - REGISTER PAGE
+   Practical 5 Styling
+========================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f1e8;
+    color: #26332b;
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   HEADER
+========================================= */
+
+header {
+    background: linear-gradient(135deg, #183c32, #28594a);
+    color: #ffffff;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+header p {
+    color: #d9c99b;
+    font-size: 16px;
+}
+
+
+/* =========================================
+   NAVIGATION
+========================================= */
+
+nav {
+    background: #102c25;
+    padding: 14px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav a {
+    display: inline-block;
+    color: #f7f3e8;
+    text-decoration: none;
+    margin: 4px 8px;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    background: #d9c99b;
+    color: #183c32;
+}
+
+
+/* =========================================
+   MAIN AREA
+========================================= */
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 45px auto;
+}
+
+
+/* =========================================
+   REGISTRATION SECTION
+========================================= */
+
+section {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 22px;
+    box-shadow: 0 12px 35px rgba(24, 60, 50, 0.12);
+    border: 1px solid #e4dfd1;
+}
+
+section h2 {
+    text-align: center;
+    color: #183c32;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+section h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #c9ad68;
+    margin: 10px auto 30px;
+    border-radius: 5px;
+}
+
+
+/* =========================================
+   FORM
+========================================= */
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 25px;
+}
+
+
+/* Make form elements span both columns */
+
+form label:first-child {
+    margin-top: 0;
+}
+
+
+/* =========================================
+   LABELS
+========================================= */
+
+label {
+    font-weight: bold;
+    color: #30483e;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+
+/* =========================================
+   INPUTS
+========================================= */
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 13px 15px;
+    border: 1px solid #d5d0c2;
+    border-radius: 10px;
+    background: #faf9f5;
+    color: #26332b;
+    font-size: 15px;
+    transition: 0.25s ease;
+}
+
+
+/* Focus effect */
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus,
+input[type="date"]:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #c9ad68;
+    background: #ffffff;
+    box-shadow: 0 0 0 4px rgba(201, 173, 104, 0.15);
+}
+
+
+/* Placeholder */
+
+input::placeholder,
+textarea::placeholder {
+    color: #99998f;
+}
+
+
+/* =========================================
+   TEXTAREA
+========================================= */
+
+textarea {
+    resize: vertical;
+    min-height: 110px;
+}
+
+
+/* =========================================
+   RADIO BUTTONS & CHECKBOXES
+========================================= */
+
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: #28594a;
+    margin-right: 6px;
+}
+
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+    font-weight: normal;
+    margin-right: 15px;
+}
+
+
+/* =========================================
+   BUTTONS
+========================================= */
+
+input[type="submit"],
+input[type="reset"] {
+    border: none;
+    padding: 14px 25px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-top: 10px;
+}
+
+
+/* Register button */
+
+input[type="submit"] {
+    background: #28594a;
+    color: #ffffff;
+}
+
+input[type="submit"]:hover {
+    background: #183c32;
+    transform: translateY(-2px);
+    box-shadow: 0 7px 18px rgba(24, 60, 50, 0.25);
+}
+
+
+/* Clear button */
+
+input[type="reset"] {
+    background: #eee9dc;
+    color: #30483e;
+}
+
+input[type="reset"]:hover {
+    background: #d9c99b;
+    color: #183c32;
+    transform: translateY(-2px);
+}
+
+
+/* =========================================
+   VALIDATION ERROR STYLE
+   JavaScript can add class="error"
+========================================= */
+
+.error {
+    border: 2px solid #d9534f !important;
+    background: #fff7f6 !important;
+}
+
+.error-message {
+    color: #c0392b;
+    font-size: 13px;
+    margin-top: 4px;
+    font-weight: bold;
+}
+
+
+/* =========================================
+   SUCCESS MESSAGE
+========================================= */
+
+.success-message {
+    background: #e7f3ec;
+    color: #20543e;
+    padding: 12px 15px;
+    border-left: 5px solid #28594a;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+footer {
+    background: #102c25;
+    color: #f7f3e8;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+
+/* =========================================
+   RESPONSIVE DESIGN
+========================================= */
+
+@media (max-width: 768px) {
+
+    nav a {
+        display: block;
+        margin: 7px 0;
+    }
+
+    main {
+        width: 94%;
+        margin: 25px auto;
+    }
+
+    section {
+        padding: 25px 20px;
+    }
+
+    section h2 {
+        font-size: 25px;
+    }
+
+    form {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+        width: 100%;
+    }
+}
