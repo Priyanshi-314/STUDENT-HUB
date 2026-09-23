@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Aarav Patel",
+        "course": "B.Tech",
+        "department": "Computer Engineering",
+        "semester": 1,
+        "email": "aarav@studenthub.com"
+    },
+    {
+        "id": 2,
+        "name": "Diya Shah",
+        "course": "B.Tech",
+        "department": "Information Technology",
+        "semester": 2,
+        "email": "diya@studenthub.com"
+    },
+    {
+        "id": 3,
+        "name": "Rohan Mehta",
+        "course": "B.Tech",
+        "department": "Computer Engineering",
+        "semester": 3,
+        "email": "rohan@studenthub.com"
+    },
+    {
+        "id": 4,
+        "name": "Ananya Desai",
+        "course": "B.Tech",
+        "department": "Information Technology",
+        "semester": 4,
+        "email": "ananya@studenthub.com"
+    },
+    {
+        "id": 5,
+        "name": "Vivaan Joshi",
+        "course": "B.Tech",
+        "department": "Mechanical Engineering",
+        "semester": 5,
+        "email": "vivaan@studenthub.com"
+    },
+    {
+        "id": 6,
+        "name": "Isha Patel",
+        "course": "B.Tech",
+        "department": "Civil Engineering",
+        "semester": 6,
+        "email": "isha@studenthub.com"
+    },
+    {
+        "id": 7,
+        "name": "Karan Shah",
+        "course": "B.Tech",
+        "department": "Computer Engineering",
+        "semester": 7,
+        "email": "karan@studenthub.com"
+    },
+    {
+        "id": 8,
+        "name": "Meera Patel",
+        "course": "B.Tech",
+        "department": "Electrical Engineering",
+        "semester": 8,
+        "email": "meera@studenthub.com"
+    },
+    {
+        "id": 9,
+        "name": "Dev Modi",
+        "course": "B.Tech",
+        "department": "Information Technology",
+        "semester": 3,
+        "email": "dev@studenthub.com"
+    },
+    {
+        "id": 10,
+        "name": "Riya Shah",
+        "course": "B.Tech",
+        "department": "Computer Engineering",
+        "semester": 4,
+        "email": "riya@studenthub.com"
+    },
+    {
+        "id": 11,
+        "name": "Yash Patel",
+        "course": "B.Tech",
+        "department": "Mechanical Engineering",
+        "semester": 5,
+        "email": "yash@studenthub.com"
+    },
+    {
+        "id": 12,
+        "name": "Krisha Mehta",
+        "course": "B.Tech",
+        "department": "Civil Engineering",
+        "semester": 6,
+        "email": "krisha@studenthub.com"
+    },
+    {
+        "id": 13,
+        "name": "Arjun Desai",
+        "course": "B.Tech",
+        "department": "Electrical Engineering",
+        "semester": 7,
+        "email": "arjun@studenthub.com"
+    },
+    {
+        "id": 14,
+        "name": "Nisha Joshi",
+        "course": "B.Tech",
+        "department": "Information Technology",
+        "semester": 8,
+        "email": "nisha@studenthub.com"
+    },
+    {
+        "id": 15,
+        "name": "Manav Shah",
+        "course": "B.Tech",
+        "department": "Computer Engineering",
+        "semester": 2,
+        "email": "manav@studenthub.com"
+    }
+]

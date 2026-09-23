@@ -1,0 +1,537 @@
+/* =========================================
+   STUDENTHUB - PRACTICAL 6
+   EXTERNAL JSON DATA
+========================================= */
+
+
+/* ================= RESET ================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ================= BODY ================= */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: #f4f1e8;
+
+    color: #26332b;
+
+    line-height: 1.6;
+}
+
+
+/* ================= HEADER ================= */
+
+header {
+    background: linear-gradient(
+        135deg,
+        #183c32,
+        #28594a
+    );
+
+    color: white;
+
+    text-align: center;
+
+    padding: 45px 20px;
+}
+
+
+header h1 {
+    font-size: 38px;
+
+    margin: 8px 0;
+}
+
+
+header p {
+    color: #eee8d8;
+
+    font-size: 16px;
+}
+
+
+.smallTitle {
+    color: #d9c99b;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+}
+
+
+/* ================= NAVIGATION ================= */
+
+nav {
+    background: #102c25;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+    padding: 14px 20px;
+}
+
+
+nav a {
+    color: #f5f1e7;
+
+    text-decoration: none;
+
+    padding: 9px 13px;
+
+    border-radius: 7px;
+
+    font-size: 14px;
+
+    transition: 0.3s;
+}
+
+
+nav a:hover,
+nav a.active {
+    background: #d9c99b;
+
+    color: #183c32;
+}
+
+
+/* ================= MAIN ================= */
+
+main {
+    width: 92%;
+
+    max-width: 1200px;
+
+    margin: 35px auto 50px;
+}
+
+
+/* ================= INTRO ================= */
+
+.intro {
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 16px;
+
+    text-align: center;
+
+    margin-bottom: 25px;
+
+    box-shadow:
+        0 5px 18px rgba(0, 0, 0, 0.08);
+}
+
+
+.intro h2 {
+    color: #183c32;
+
+    font-size: 30px;
+
+    margin: 7px 0 10px;
+}
+
+
+.intro p:last-child {
+    color: #59655f;
+
+    font-size: 15px;
+}
+
+
+/* ================= DATA TABS ================= */
+
+.dataTabs {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 12px;
+
+    margin-bottom: 25px;
+
+    flex-wrap: wrap;
+}
+
+
+.tabButton {
+    border: none;
+
+    background: white;
+
+    color: #183c32;
+
+    padding: 13px 25px;
+
+    border-radius: 10px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.07);
+
+    transition: 0.3s;
+}
+
+
+.tabButton:hover {
+    background: #eee5c9;
+}
+
+
+.tabButton.active {
+    background: #183c32;
+
+    color: white;
+}
+
+
+/* ================= CONTROLS ================= */
+
+.controls {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 18px;
+
+    margin-bottom: 20px;
+}
+
+
+.controlBox {
+    background: white;
+
+    padding: 20px;
+
+    border-radius: 14px;
+
+    box-shadow:
+        0 4px 15px rgba(0, 0, 0, 0.07);
+}
+
+
+.controlBox label {
+    display: block;
+
+    font-weight: bold;
+
+    color: #183c32;
+
+    margin-bottom: 8px;
+
+    font-size: 14px;
+}
+
+
+.controlBox input,
+.controlBox select {
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #d5d0c2;
+
+    border-radius: 8px;
+
+    background: #faf9f5;
+
+    color: #26332b;
+
+    font-size: 14px;
+
+    outline: none;
+}
+
+
+.controlBox input:focus,
+.controlBox select:focus {
+    border-color: #c9ad68;
+
+    box-shadow:
+        0 0 0 3px
+        rgba(201, 173, 104, 0.15);
+}
+
+
+/* ================= STATUS ================= */
+
+.statusSection {
+    text-align: center;
+
+    margin: 20px 0;
+}
+
+
+#statusMessage {
+    color: #59655f;
+
+    font-weight: bold;
+}
+
+
+/* ================= DATA GRID ================= */
+
+.dataGrid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 22px;
+}
+
+
+/* ================= DATA CARD ================= */
+
+.dataCard {
+    background: white;
+
+    border-radius: 16px;
+
+    padding: 23px;
+
+    border-top: 5px solid #c9ad68;
+
+    box-shadow:
+        0 5px 18px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s;
+}
+
+
+.dataCard:hover {
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+
+.dataCard h3 {
+    color: #183c32;
+
+    font-size: 20px;
+
+    margin-bottom: 12px;
+}
+
+
+.dataCard p {
+    color: #59655f;
+
+    font-size: 14px;
+
+    margin: 7px 0;
+}
+
+
+/* ================= BADGE ================= */
+
+.badge {
+    display: inline-block;
+
+    background: #eee5c9;
+
+    color: #183c32;
+
+    padding: 5px 10px;
+
+    border-radius: 20px;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    margin-bottom: 10px;
+}
+
+
+/* ================= FAQ CARD ================= */
+
+.faqCard {
+    grid-column: span 1;
+}
+
+
+.faqQuestion {
+    color: #183c32;
+
+    font-weight: bold;
+
+    font-size: 17px;
+
+    margin-bottom: 10px;
+}
+
+
+.faqAnswer {
+    color: #59655f;
+
+    font-size: 14px;
+}
+
+
+/* ================= NO RESULTS ================= */
+
+.noResults {
+    grid-column: 1 / -1;
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 14px;
+
+    text-align: center;
+
+    color: #59655f;
+}
+
+
+/* ================= PAGINATION ================= */
+
+.paginationSection {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 20px;
+
+    margin-top: 35px;
+}
+
+
+.paginationSection button {
+    border: none;
+
+    background: #183c32;
+
+    color: white;
+
+    padding: 11px 20px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-size: 14px;
+
+    transition: 0.3s;
+}
+
+
+.paginationSection button:hover {
+    background: #28594a;
+}
+
+
+.paginationSection button:disabled {
+    background: #b8b5aa;
+
+    cursor: not-allowed;
+}
+
+
+#pageInfo {
+    font-weight: bold;
+
+    color: #183c32;
+
+    min-width: 100px;
+
+    text-align: center;
+}
+
+
+/* ================= FOOTER ================= */
+
+footer {
+    background: #102c25;
+
+    color: #e9e4d7;
+
+    text-align: center;
+
+    padding: 25px 15px;
+
+    font-size: 14px;
+}
+
+
+footer p {
+    margin: 4px;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 900px) {
+
+    .dataGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .controls {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+@media (max-width: 650px) {
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        width: 100%;
+
+        text-align: center;
+    }
+
+    .dataGrid {
+        grid-template-columns: 1fr;
+    }
+
+    main {
+        width: 94%;
+    }
+
+    .intro {
+        padding: 22px 17px;
+    }
+
+    .paginationSection {
+        gap: 10px;
+    }
+
+}

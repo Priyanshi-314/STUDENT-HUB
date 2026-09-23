@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StudentHub - Practical 6</title>
+
+    <link rel="stylesheet" href="../css/practical6.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <p class="smallTitle">STUDENTHUB</p>
+
+        <h1>Dynamic Data Portal 🎓</h1>
+
+        <p>
+            Practical 6 - Rendering External JSON Data using Fetch API
+        </p>
+
+    </header>
+
+
+    <!-- ================= NAVIGATION ================= -->
+
+    <nav>
+
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="register.html">Register</a>
+        <a href="login.html">Login</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="events.html">Events</a>
+        <a href="profile.html">Profile</a>
+        <a href="contact.html">Contact</a>
+        <a href="FAQ.html">FAQ</a>
+        <a href="practical6.html" class="active">Dynamic Data</a>
+
+    </nav>
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main>
+
+        <!-- Introduction -->
+
+        <section class="intro">
+
+            <p class="smallTitle">
+                PRACTICAL 6
+            </p>
+
+            <h2>
+                External JSON Data
+            </h2>
+
+            <p>
+                Data is loaded from external JSON files using the
+                JavaScript Fetch API and displayed dynamically.
+            </p>
+
+        </section>
+
+
+        <!-- ================= DATA TABS ================= -->
+
+        <section class="dataTabs">
+
+            <button
+                class="tabButton active"
+                data-type="events">
+                📅 Events
+            </button>
+
+            <button
+                class="tabButton"
+                data-type="students">
+                🎓 Students
+            </button>
+
+            <button
+                class="tabButton"
+                data-type="faqs">
+                ❓ FAQs
+            </button>
+
+        </section>
+
+
+        <!-- ================= CONTROLS ================= -->
+
+        <section class="controls">
+
+            <!-- Search -->
+
+            <div class="controlBox">
+
+                <label for="searchInput">
+                    🔎 Search
+                </label>
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search data..."
+                >
+
+            </div>
+
+
+            <!-- Filter -->
+
+            <div class="controlBox">
+
+                <label for="filterSelect">
+                    📂 Filter
+                </label>
+
+                <select id="filterSelect">
+
+                    <option value="all">
+                        All
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <!-- Sort -->
+
+            <div class="controlBox">
+
+                <label for="sortSelect">
+                    ↕ Sort
+                </label>
+
+                <select id="sortSelect">
+
+                    <option value="default">
+                        Default
+                    </option>
+
+                </select>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= STATUS ================= -->
+
+        <section class="statusSection">
+
+            <p id="statusMessage">
+                Loading data...
+            </p>
+
+        </section>
+
+
+        <!-- ================= DATA CONTAINER ================= -->
+
+        <section>
+
+            <div
+                id="dataContainer"
+                class="dataGrid">
+            </div>
+
+        </section>
+
+
+        <!-- ================= PAGINATION ================= -->
+
+        <section class="paginationSection">
+
+            <button id="previousBtn">
+                ← Previous
+            </button>
+
+            <span id="pageInfo">
+                Page 1
+            </span>
+
+            <button id="nextBtn">
+                Next →
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            &copy; 2026 StudentHub. All Rights Reserved.
+        </p>
+
+        <p>
+            Email: support@studenthub.com
+        </p>
+
+    </footer>
+
+
+    <script src="../js/practical6.js"></script>
+
+</body>
+
+</html>

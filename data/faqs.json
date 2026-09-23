@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "question": "What is StudentHub?",
+        "answer": "StudentHub is a student portal for accessing college information and services."
+    },
+    {
+        "id": 2,
+        "question": "How can I register?",
+        "answer": "Open the Register page and complete the registration form."
+    },
+    {
+        "id": 3,
+        "question": "How can I login?",
+        "answer": "Open the Login page and enter your registered email and password."
+    },
+    {
+        "id": 4,
+        "question": "Where can I see college events?",
+        "answer": "College events can be viewed on the Events page."
+    },
+    {
+        "id": 5,
+        "question": "What is Practical 6?",
+        "answer": "Practical 6 demonstrates rendering external JSON data using the Fetch API."
+    },
+    {
+        "id": 6,
+        "question": "What is JSON?",
+        "answer": "JSON stands for JavaScript Object Notation and is used to store structured data."
+    },
+    {
+        "id": 7,
+        "question": "What is Fetch API?",
+        "answer": "Fetch API allows JavaScript to request and retrieve data from external files or resources."
+    },
+    {
+        "id": 8,
+        "question": "Can I search events?",
+        "answer": "Yes, events can be searched using the search box."
+    },
+    {
+        "id": 9,
+        "question": "Can events be filtered?",
+        "answer": "Yes, events can be filtered according to their category."
+    },
+    {
+        "id": 10,
+        "question": "Can event data be sorted?",
+        "answer": "Yes, event data can be sorted by name or date."
+    },
+    {
+        "id": 11,
+        "question": "What is pagination?",
+        "answer": "Pagination divides a large amount of data into smaller pages."
+    },
+    {
+        "id": 12,
+        "question": "Where is student information stored?",
+        "answer": "Student information is stored in the students.json file."
+    },
+    {
+        "id": 13,
+        "question": "Where is FAQ information stored?",
+        "answer": "FAQ information is stored in the faqs.json file."
+    },
+    {
+        "id": 14,
+        "question": "What happens if JSON loading fails?",
+        "answer": "The JavaScript application displays an error message to the user."
+    },
+    {
+        "id": 15,
+        "question": "What technologies are used in Practical 6?",
+        "answer": "Practical 6 uses HTML5, CSS3, JavaScript ES6+, JSON and the Fetch API."
+    }
+]

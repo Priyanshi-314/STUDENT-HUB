@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Tech Innovation Summit",
+        "category": "Technology",
+        "date": "2026-10-05",
+        "location": "Main Auditorium",
+        "description": "Explore new technologies and innovative ideas."
+    },
+    {
+        "id": 2,
+        "name": "Cultural Fest",
+        "category": "Cultural",
+        "date": "2026-10-10",
+        "location": "College Ground",
+        "description": "Enjoy music, dance and cultural performances."
+    },
+    {
+        "id": 3,
+        "name": "Coding Competition",
+        "category": "Technology",
+        "date": "2026-10-15",
+        "location": "Computer Lab",
+        "description": "Test your programming and problem-solving skills."
+    },
+    {
+        "id": 4,
+        "name": "Sports Day",
+        "category": "Sports",
+        "date": "2026-10-20",
+        "location": "Sports Ground",
+        "description": "Participate in various indoor and outdoor sports."
+    },
+    {
+        "id": 5,
+        "name": "Career Guidance Seminar",
+        "category": "Career",
+        "date": "2026-10-25",
+        "location": "Seminar Hall",
+        "description": "Learn about career opportunities and professional skills."
+    },
+    {
+        "id": 6,
+        "name": "Photography Workshop",
+        "category": "Workshop",
+        "date": "2026-11-02",
+        "location": "Arts Room",
+        "description": "Learn photography basics and creative techniques."
+    },
+    {
+        "id": 7,
+        "name": "Entrepreneurship Meet",
+        "category": "Business",
+        "date": "2026-11-08",
+        "location": "Conference Hall",
+        "description": "Learn about startups and entrepreneurship."
+    },
+    {
+        "id": 8,
+        "name": "Science Exhibition",
+        "category": "Science",
+        "date": "2026-11-15",
+        "location": "Exhibition Hall",
+        "description": "Explore innovative science projects by students."
+    },
+    {
+        "id": 9,
+        "name": "Literary Club Meet",
+        "category": "Literary",
+        "date": "2026-11-20",
+        "location": "College Library",
+        "description": "Participate in poetry, reading and literary discussions."
+    },
+    {
+        "id": 10,
+        "name": "Annual College Function",
+        "category": "Cultural",
+        "date": "2026-12-05",
+        "location": "Main Auditorium",
+        "description": "Celebrate the annual college function."
+    },
+    {
+        "id": 11,
+        "name": "Web Development Workshop",
+        "category": "Technology",
+        "date": "2026-12-10",
+        "location": "Computer Lab",
+        "description": "Learn modern web development concepts."
+    },
+    {
+        "id": 12,
+        "name": "Debate Competition",
+        "category": "Literary",
+        "date": "2026-12-15",
+        "location": "Seminar Hall",
+        "description": "Show your communication and debating skills."
+    },
+    {
+        "id": 13,
+        "name": "Inter College Cricket",
+        "category": "Sports",
+        "date": "2026-12-20",
+        "location": "Sports Ground",
+        "description": "Compete with teams from different colleges."
+    },
+    {
+        "id": 14,
+        "name": "AI Awareness Seminar",
+        "category": "Technology",
+        "date": "2027-01-05",
+        "location": "Conference Hall",
+        "description": "Understand the applications of artificial intelligence."
+    },
+    {
+        "id": 15,
+        "name": "Republic Day Celebration",
+        "category": "Cultural",
+        "date": "2027-01-26",
+        "location": "College Ground",
+        "description": "Celebrate Republic Day with students and faculty."
+    }
+]
